@@ -17,9 +17,10 @@ np.random.seed(RANDOM_SEED)
 
 # Define paths
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
+MODEL_ROOT = SCRIPT_DIR.parent
+PROJECT_ROOT = MODEL_ROOT.parent.parent
 DATA_DIR = PROJECT_ROOT / "data_preparation" / "processed"
-OUTPUT_DIR = PROJECT_ROOT / "outputs" / "attribution model"
+OUTPUT_DIR = MODEL_ROOT / "outputs"
 
 REQUIRED_FILES = ["data_touchpoints.csv", "data_journeys.csv", "data_encoded.csv"]
 
