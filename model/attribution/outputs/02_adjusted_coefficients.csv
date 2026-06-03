@@ -1,0 +1,9 @@
+,coef,odds_ratio,or_ci_low,or_ci_high,p_value
+const,-0.9742,0.3775,0.2725,0.5229,0.0
+Channel_Direct Traffic,0.3047,1.3562,0.9326,1.9722,0.1108
+Channel_Display Ads,0.6464,1.9087,1.2927,2.8183,0.0011
+Channel_Email,0.4375,1.5488,1.0486,2.2875,0.0279
+Channel_Referral,0.295,1.3431,0.9255,1.9493,0.1206
+Channel_Search Ads,0.0957,1.1004,0.7571,1.5993,0.616
+Channel_Social Media,0.3531,1.4235,0.9793,2.0691,0.0642
+N_Touchpoints,0.6478,1.9114,1.5432,2.3676,0.0
