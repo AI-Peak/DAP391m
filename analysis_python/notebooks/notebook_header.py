@@ -18,6 +18,7 @@ REQUIRED_DATA_FILES = ("data_touchpoints.csv", "data_journeys.csv", "data_encode
 
 def _find_data_dir() -> Path:
     candidates = [
+        PROJECT_ROOT / "data_preparation" / "processed",
         PROJECT_ROOT,
         PROJECT_ROOT / "Social-Media-Campaign-Attribution-for-E-commerce-Sales-main",
         PROJECT_ROOT.parent / "Social-Media-Campaign-Attribution-for-E-commerce-Sales-main",
