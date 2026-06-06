@@ -1,0 +1,23 @@
+Clean Basic Attribution Models
+================================
+
+Touchpoints file: data_preparation\processed\data_touchpoints.csv
+Journeys file: data_preparation\processed\data_journeys.csv
+Total users: 2,847
+Converted users: 2,381
+
+Validation checks:
+                   Check  Expected  Actual   Difference  Passed
+         Converted users    2381.0  2381.0 0.000000e+00    True
+First-touch total credit    2381.0  2381.0 0.000000e+00    True
+ Last-touch total credit    2381.0  2381.0 0.000000e+00    True
+     Linear total credit    2381.0  2381.0 9.999894e-10    True
+
+Top channel summary by Linear_Share:
+       Channel  First_Touch_Credit  First_Touch_Share  Last_Touch_Credit  Last_Touch_Share  Linear_Credit  Linear_Share
+Direct Traffic               411.0          17.261655              425.0         17.849643     408.276551     17.147272
+   Display Ads               428.0          17.975640              401.0         16.841663     407.156169     17.100217
+      Referral               408.0          17.135657              384.0         16.127677     398.704942     16.745273
+  Social Media               389.0          16.337673              383.0         16.085678     397.603716     16.699022
+         Email               374.0          15.707686              393.0         16.505670     387.716775     16.283779
+    Search Ads               371.0          15.581688              395.0         16.589668     381.541847     16.024437

@@ -1,0 +1,5 @@
+Check,Expected,Actual,Difference,Passed
+Converted users,2381.0,2381.0,0.0,True
+First-touch total credit,2381.0,2381.0,0.0,True
+Last-touch total credit,2381.0,2381.0,0.0,True
+Linear total credit,2381.0,2381.000000001,9.999894245993346e-10,True
